@@ -4,20 +4,32 @@
 I selected Cypress, especially because it supports not only UI tests but also API checks.I tried to do as much dynamic testing as I could, using faker and moment libraries to make tests not dependent on specific data.
 Also, I think that the Page Object Model pattern is the best pattern in my case, so I separate between elements ,functions and Tosat messages .
 
+https://user-images.githubusercontent.com/78497060/229527689-a75041d6-ee0f-4e9b-84fd-f2c68a005b24.mp4
 
 
 ## Setup
 
-https://user-images.githubusercontent.com/78497060/229527689-a75041d6-ee0f-4e9b-84fd-f2c68a005b24.mp4
-
-
-
-##### Install Node & npm .
-##### Install Visual Studio Code .
-##### Install Cypress.
-##### Install Faker Check [here](https://www.npmjs.com/package/@faker-js/faker).
-##### Install cypress xpath Check [here](https://www.npmjs.com/package/@cypress/xpath).
-##### Install Moment [here](https://www.npmjs.com/package/moment).
+```
+Install Node & npm .
+```
+```
+Install Visual Studio Code .
+```
+```
+Install Cypress.
+```
+```
+Install Faker Check [here](https://www.npmjs.com/package/@faker-js/faker).
+```
+```
+Install cypress xpath Check [here](https://www.npmjs.com/package/@cypress/xpath).
+```
+```
+Install Moment [here](https://www.npmjs.com/package/moment).
+```
+```
+Install all dependencies using npm install 
+```
 
 ## Structure:
 ![image](https://user-images.githubusercontent.com/78497060/229496713-3cf288fb-a4a6-4284-b538-7d7e0783fcf2.png)
@@ -26,7 +38,7 @@ https://user-images.githubusercontent.com/78497060/229527689-a75041d6-ee0f-4e9b-
 ###### contains elements , page functions and tosat messages classes .
 
 ### `Tests`
-###### contains tests for selling new product.
+###### contains tests for buying new product.
 
 ## how to deal with cookies 
 To deal with cookies issues i added in `Index` and after each test case we clear all cookies.
@@ -53,7 +65,7 @@ afterEach(() => {
 ## Notes :
 ###### `Faker and Moment libaries  used for creation random test data.`
 ###### `Cypress-Xpath used for adding strong selectors.`
-###### `I found issue that confirmation messages for sell`
+###### `I found issue that confirmation messages after checkout not displaying in some times so i skiped this test cases in test file.`
 
 
 
