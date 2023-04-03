@@ -28,7 +28,7 @@ npx cypress open
 ![image](https://user-images.githubusercontent.com/78497060/229496713-3cf288fb-a4a6-4284-b538-7d7e0783fcf2.png)
 ### `Pages`
 
-###### contains elements , page functions and tosat messages classes .
+###### contains elements , page functions and toast messages classes .
 
 ### `Tests`
 ###### contains tests for buying new product.
