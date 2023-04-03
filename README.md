@@ -2,33 +2,26 @@
 
 # Overview
 I selected Cypress, especially because it supports not only UI tests but also API checks.I tried to do as much dynamic testing as I could, using faker and moment libraries to make tests not dependent on specific data.
-Also, I think that the Page Object Model pattern is the best pattern in my case, so I separate between elements ,functions and Tosat messages .
+Also, I think that the Page Object Model pattern is the best pattern in my case, so I separate between elements ,functions and toast messages .
 
 https://user-images.githubusercontent.com/78497060/229527689-a75041d6-ee0f-4e9b-84fd-f2c68a005b24.mp4
 
 
 ## Setup
 
+##### Install Node & npm .
+##### Install Visual Studio Code .
+##### Install Cypress.
+##### Install Faker Check [here](https://www.npmjs.com/package/@faker-js/faker).
+##### Install cypress xpath Check [here](https://www.npmjs.com/package/@cypress/xpath).
+##### Install Moment [here](https://www.npmjs.com/package/moment).
+##### You can install all dependencies using :
 ```
-Install Node & npm .
+npm install 
 ```
+##### You can run cypress using :
 ```
-Install Visual Studio Code .
-```
-```
-Install Cypress.
-```
-```
-Install Faker Check [here](https://www.npmjs.com/package/@faker-js/faker).
-```
-```
-Install cypress xpath Check [here](https://www.npmjs.com/package/@cypress/xpath).
-```
-```
-Install Moment [here](https://www.npmjs.com/package/moment).
-```
-```
-Install all dependencies using npm install 
+npx cypress open
 ```
 
 ## Structure:
